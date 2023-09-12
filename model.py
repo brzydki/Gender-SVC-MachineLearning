@@ -16,7 +16,7 @@ def predict_gender(input_image_path):
     else:
         return 'Error.'
 
-input_image_path = 'image3.jpg'  # Замените на путь к вашему изображению
+input_image_path = 'image3.jpg'  # Replace with the path to your image
 predicted_gender = predict_gender(input_image_path)
 print(f'Predicted gender: {predicted_gender}')
 
