@@ -8,8 +8,6 @@ def predict_gender(input_image_path):
 
     if input_image is not None:
         input_image = input_image.reshape(1, -1)
-
-        # Предсказание пола
         prediction = classifier.predict(input_image)[0]
         gender_mapping = {0: 'Man', 1: 'Women'}
         return gender_mapping[prediction]
