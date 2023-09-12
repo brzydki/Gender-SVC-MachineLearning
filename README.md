@@ -6,20 +6,11 @@
 </p>
 
 ## About
-
-About Text Here
-
-## Documentation
-
-Documentation Here
-
-## Distribute
-
-- [Service Name](Page Link)
-
+This project is a machine learning-based gender recognition system. The system utilizes machine learning, specifically the Support Vector Machine (SVM) method, to classify images into male and female categories. This task falls within the realm of computer vision and image processing, as well as machine learning and classification tasks.
 
 ## Developers
 
-- [Delevoper Name](GitHub Profile Link)
+- [brzydki](https://github.com/brzydki)
 
 ## License
+Project Gender-SVC-MachineLearning is distributed under the MIT license.
